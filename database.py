@@ -2,10 +2,10 @@ import sqlite3
 from datetime import datetime
 
 DB_NAME = "leave_manager.db"
-
+#l..........................................
 def connect_db():
     return sqlite3.connect(DB_NAME)
-
+#.................................................
 def init_db():
     with connect_db() as conn:
         cursor = conn.cursor()
